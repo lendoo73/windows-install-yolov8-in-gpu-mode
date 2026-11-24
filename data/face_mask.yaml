@@ -1,0 +1,9 @@
+# Dataset Path
+path: data/face_mask_dataset # dataset root dir
+
+train: images\train # relative to path
+val: images\val # relative to path
+test: images\test # relative to path
+
+# Class Names
+names: ["Mask", "No Mask", "Bad Mask"]

@@ -1,0 +1,13 @@
+.venv/
+.idea/
+__pycache__/
+*.py[cod]
+*.cache
+.env
+.DS_Store
+
+# Generated runs and downloadable model files are excluded by default.
+runs/
+*.pt
+*.onnx
+inference/
