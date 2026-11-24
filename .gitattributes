@@ -1,2 +1,4 @@
+runs/classify/yolov8l-weather-classification/weights/best.pt filter=lfs diff=lfs merge=lfs -text
+runs/segment/yolov8_coffee_leaf/weights/best.pt filter=lfs diff=lfs merge=lfs -text
 runs/classify/yolov8l-weather-classification/weights/last.pt filter=lfs diff=lfs merge=lfs -text
 runs/segment/yolov8_coffee_leaf/weights/last.pt filter=lfs diff=lfs merge=lfs -text

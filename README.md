@@ -33,10 +33,10 @@ yolo classify train model=yolov8l-cls.pt data=data/classify/weather_dataset devi
 yolo segment train model=yolov8l-seg.pt data=data/segment/coffee-leaf.yaml device=0 name=yolov8_coffee_leaf
 ```
 
-Official YOLO model weights such as `yolov8l.pt`, `yolov8l-cls.pt`, and `yolov8l-seg.pt` are not included; Ultralytics can download them when requested by name. The two retained custom-trained `last.pt` checkpoints are tracked with Git LFS:
+Official YOLO model weights such as `yolov8l.pt`, `yolov8l-cls.pt`, and `yolov8l-seg.pt` are not included; Ultralytics can download them when requested by name. The two retained custom-trained `best.pt` checkpoints are tracked with Git LFS:
 
-- Weather classification: `runs/classify/yolov8l-weather-classification/weights/last.pt`
-- Coffee-leaf segmentation: `runs/segment/yolov8_coffee_leaf/weights/last.pt`
+- Weather classification: `runs/classify/yolov8l-weather-classification/weights/best.pt`
+- Coffee-leaf segmentation: `runs/segment/yolov8_coffee_leaf/weights/best.pt`
 
 The example inference media and other generated run outputs are not included. Supply your own image or video paths for prediction and tracking. The lesson-note Markdown files in the project root contain additional commands and examples.
 
